@@ -109,7 +109,7 @@ market_share = avg_enrollment / avg_enrolled
 raw_rating = mean(c_across(all_of(quality_vars)), na.rm = TRUE)
 ```
 
-**OLS by year** (Problem 4) uses star rating dummies with `≤ 2.5★` as the reference group:
+**OLS by year** (Problem 4) uses star rating dummies with `≤ 2.5` stars as the reference group:
 ```r
 lm(market_share ~ star_3 + star_35 + star_4 + star_45, data = ...)
 ```
@@ -121,7 +121,7 @@ lm(market_share ~ score + treat + score_treat, data = window_subset)
 # treat       = (score >= 0)
 # score_treat = score * treat   (interaction)
 ```
-Two thresholds are analyzed: **2.75** (2.5 vs 3★) and **3.25** (3 vs 3.5★).
+Two thresholds are analyzed: **2.75** (2.5 vs 3 stars) and **3.25** (3 vs 3.5 stars).
 
 **Bandwidth sensitivity** (Problem 7) loops over windows from ±0.10 to ±0.15 and plots the treatment effect with 95% CIs.
 
