@@ -47,7 +47,8 @@ hwk3/
 └── readme.md/
 ```
 
-Note `ratings.var.20YY` factors were extracted from the respective year subdirectory of the HCRIS repository and pasted before the computation of star ratings data in `ma-data-20YY` during data curation, and also before raw ratings calculation in `problems.ipynb`. All CSV files are loaded from `../data/` relative to the notebook. The notebook uses an R kernel.
+- Note `ratings.var.20YY` factors were extracted from the respective year subdirectory of the HCRIS repository and pasted before the computation of star ratings data in `ma-data-20YY` during data curation in the way this repository was built, and also before the raw ratings calculation section in `problems.ipynb`.
+- All CSV files are loaded from `../data/` relative to the notebook. The notebook uses an R kernel.
 
 ---
 
