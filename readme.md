@@ -6,7 +6,18 @@ An R-based analysis of Medicare Advantage (MA) plan star ratings, market share, 
 
 ## Project Structure
 
-Open Demand Directory Orientation
+Path leading up to Homework 3
+
+```
+econ470/
+       ├── a0/
+          ├── work
+              ├── hwk3/
+              ├── ma-data/
+              └── hcris-data/
+```
+
+Open Demand Directory Orientation within the Homework 3 folder
 
 ```
 hwk3/
