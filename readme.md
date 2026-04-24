@@ -47,6 +47,7 @@ hwk3/
 └── readme.md/
 ```
 
+> Note `ratings.var.YYYY` factors were extracted from the respective year subdirectory of the HCRIS repository and pasted before star ratings computation. 
 > All CSV files are loaded from `../data/` relative to the notebook. The notebook uses an R kernel.
 
 ---
@@ -74,7 +75,7 @@ Raw CSVs (2010–2015)
        ├──► Problem 5 — Raw rating = mean of 33 quality variables (2010 only)
        │                 + count of plans rounded up to each star threshold
        │
-       ├──► Problem 6 — RD at 2.75 cutoff (2.5 vs 3★) and 3.25 cutoff (3 vs 3.5★)
+       ├──► Problem 6 — RD at 2.75 cutoff (2.5 vs 3 stars) and 3.25 cutoff (3 vs 3.5 stars)
        │                 bandwidth = ±0.125
        │
        ├──► Problem 7 — Sensitivity analysis: RD across bandwidths 0.10–0.15
