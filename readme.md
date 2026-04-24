@@ -6,8 +6,10 @@ An R-based analysis of Medicare Advantage (MA) plan star ratings, market share, 
 
 ## Project Structure
 
+Open Demand Directory Orientation
+
 ```
-project/
+hwk3/
 ├── data/
 │   ├── data-2010.csv
 │   ├── data-2011.csv
@@ -15,7 +17,23 @@ project/
 │   ├── data-2013.csv
 │   ├── data-2014.csv
 │   └── data-2015.csv
-└── problems.ipynb       ← Main analysis notebook (R kernel)
+├── submission1/
+│   ├── problems.ipynb ← Main analysis notebook (R kernel)
+│   ├── ma-data-2015.ipynb
+│   ├── ...
+│   ├── ma-data-2010.ipynb
+│   ├── sarkar-s-hwk3-1.pdf
+│   └── problems.qmd
+├── submission2/
+│   ├── problems.ipynb ← Main analysis notebook (R kernel)
+│   ├── sarkar-s-hwk3-2.pdf
+│   └── problems.qmd
+├── submission3/
+│   ├── problems.ipynb ← Main analysis notebook (R kernel)
+│   ├── sarkar-s-hwk3-3.pdf
+│   └── problems.qmd
+├── functions-1.R/
+└── readme.md/
 ```
 
 > All CSV files are loaded from `../data/` relative to the notebook. The notebook uses an R kernel.
